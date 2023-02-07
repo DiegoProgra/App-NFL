@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>NFL STATISTICS</title>
+        <meta charset="UTF-8">
+        <meta name="descripcion" content=" {agina de la leccion2"/>
+        <meta name="keywords" content="html5, css,web"/>
+        <link href="css/menuNFL.css" rel="stylesheet" type="text/css"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+   
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">Super Bowl</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="nose9.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="principios.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="superbowlwinners.html">Super Bowl Winners</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="nose3.html">No se 3</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="nose4.html">No se 4</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="nose5.html">No se 5</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+     <aside id="barraLateral">
+        <h2>Registra tu perfil </h2>
+        <p>Llena esta informacion para registrar tu perfil </p>
+    </aside>
+    <section id="contenido">
+        <h2> Registrar</h2>
+        <form action="#">
+            <label>Al terminar todas las opciones por favor confirma</label><input type="button" value="Confirmar" name="button" id="button"/><br/>
+            <label>Aceptas ?</label><input type="checkbox" value="Confirmar" name="button" id="checkbox" checked />Terminos y Condiciones<br/>
+            <label>De que color es tu equipo preferido  </label><input type="color" id="color" value="ffff00"/><br/>
+            <label>Dinos tu equipo</label><input type="text" placeholder="Digite el texto" id="text" size="30"/><br/>
+            <label>Que opinas de tu equipo</label><input id="Ejemplo" rows="5" cols="30"/><br/>
+            <label>Que fecha es la que te volviste fan</label><input type="date" name="time"min="2021-01-01"max="2023-12-31"/><br/>
+           
+            <label>Que hora es </label><input type="time"name="time"/><br/>
+            <label>Escribe tu email para poder contactarnos con tu persona</label><input type="email"name="email" placeholder="Digite su email"/><br/>
+            <label>Alguna foto que nos quieras proveer para tu perfil </label><input type="file"name="time"/><br/>
+            
+            
+            <label>Porfavor proveenrnos tu numero telefonico</label><input type="text" placeholder="Digite el texto" id="text" size="30"/><br/>
+            <label>Tienes algun sitio web del cual quieras hacer publico?</label><input type="url"name="url" placeholder=""/><br/>
+            
+            <label>Cuantos años tienes</label><input type="number"name="number" value="50" min="10" max="85"/><br/>
+            <label>Cual seria tu contraseña</label><input type="password"name="password"/><br/>
+            <h1>Cual horario prefieres para disfrutar de los partidos</h1>
+            <label></label>Mañana<input type="radio"name="horario" value="1"/><br/>
+            <label></label>Tarde<input type="radio"name="horario" value="2"/><br/>
+            <label></label>Noche<input type="radio"name="horario" value="3"/><br/>
+            <label>Dinos que tan seguro estas del 0 al 100 de que tu equipo avanzara al Super Bowl</label><input type="range" value="24" min="1" max="100"
+                                       oninput="this.nextElementSibling.value=this.value">
+            <output>24</output><br/>
+            <label>Selecciona esta opcion si no estas seguro de tus elecciones</label><input type="reset"name="reset" value="Limpiar"><br/>
+            <label>Selecciona esta opcion si estas seguro de que queres enviar estos daots</label><input type="submit"value="enviar"/><br/>
+        </form>
+    </section>
+    <footer id="pie"> <address>Esta Pagina es de Prueba</address> <address>Me puede contactar al 8320-6632</address> </footer>

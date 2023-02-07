@@ -1,0 +1,120 @@
+#encabezado{
+    position: absolute;
+    top:0;
+    left:0;
+    height:8%;
+    width:100%;
+    background-color: #496D8D;
+    color:white;
+    padding-left: 15px;
+}
+#menu{
+    position: absolute;
+    top:8%;
+    left:0;
+    height:4%;
+    width:100%;
+    background-color: #9B8030;
+    color:black;
+    padding-left: 15px;
+
+}
+#menu a:visited{
+    color:#746339;
+}
+
+#menu a:hover{
+    background-color:#746339;
+    color:white;
+}
+#barraLateral{
+    position: absolute;
+    top:10%;
+    left:0;
+    height:83%;
+    width:20%;
+    background-color: #ffde7c;
+    color:black;
+    padding-left: 15px;
+}
+#contenido{
+    position: absolute;
+    top:10%;
+    left:20%;
+    height:83%;
+    width:80%;
+    background-color: #999999;
+    color:black;
+    padding-left: 15px;
+    overflow:auto;
+
+}
+
+#encabezado{
+        font-size: 30px;
+    background-color: blue;
+    color:gold;
+}
+
+#pie{
+    position:absolute;
+    bottom:0%;
+    left:0;
+    height:7%;
+    width:100%;
+    background-color:#7A0000 ;
+    color:black;
+    padding-left: 15px;
+    text-align: center;
+ 
+}
+#tablaResumen tr:nth-child(odd){
+    background-color: coral;
+    color:white;
+    
+}
+#tablaResumen tr:nth-child(even){
+    background-color: yellow;
+    color:white;
+    
+}
+#tablaResumen{
+    font-size: 20px;
+    background-color: blue;
+    color:gold;
+        
+}
+#contenido2{
+    position: fixed;
+    top:10%;
+    left: 0;
+    height:100%;
+    width:100%;
+    background-color: #999999;
+    color:black;
+    padding-left: 40px;
+    overflow:auto;
+    
+}
+#pie2{
+    position:absolute;
+    bottom:0%;
+    left:0;
+    height:5%;
+    width:100%;
+    background-color:#7A0000 ;
+    color:black;
+    padding-left: 10px;
+    text-align: center;
+}
+#figuretm{
+        position:relative;
+                bottom:40%;
+    left:0;
+    height:8%;
+    width:15%;
+  
+    color:black;
+    padding-left: 400px;
+    text-align: center;
+}
